@@ -6,11 +6,11 @@ android {
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 
     defaultConfig {
-        applicationId = libs.versions.app.version.appId.get()
+        applicationId = "com.devgroup.tools"
         minSdk = libs.versions.app.build.minimumSDK.get().toInt()
         targetSdk = libs.versions.app.build.targetSDK.get().toInt()
-        versionName = libs.versions.app.version.versionName.get()
-        versionCode = libs.versions.app.version.versionCode.get().toInt()
+        versionName = "1.0.0"
+        versionCode =1
         vectorDrawables.useSupportLibrary = true
     }
 
